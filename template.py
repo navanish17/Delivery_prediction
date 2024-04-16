@@ -28,6 +28,7 @@ list_of_files = [
     "setup.py"
 ]
 
+D:\youtube class\Projects\Delivery_prediction\venv
 
 for filepth in list_of_files:
     filepath = Path(filepth)
