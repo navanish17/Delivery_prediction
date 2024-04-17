@@ -30,6 +30,7 @@ class DataIngestion:
             df=pd.read_csv(DATASET_PATH)
             #df=pd.read_csv(os.path.join("D:\DATASET\delivery_dataset\finalTrain.csv"))
             logging.info(f"Download data {DATASET_PATH}")
+            print(df.head())
 
             logging.info('Dataset read as pandas Dataframe')
 
